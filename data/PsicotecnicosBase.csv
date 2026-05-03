@@ -1,0 +1,171 @@
+Tema;Pregunta;Respuesta_A;Respuesta_B;Respuesta_C;Respuesta_D;Correcta;Justificacion
+Numérico;Un padre tiene 40 años y su hijo 10. ¿Dentro de cuántos años la edad del padre será el triple que la del hijo?;5 años;10 años;15 años;20 años;0;Dentro de 5 años: 45 y 15. 45 es el triple de 15.
+Numérico;¿Qué número es el 20% del 30% de 500?;20;30;45;60;1;0.30*500=150. 0.20*150=30.
+Numérico;Un tren recorre 120 km en 40 minutos. ¿Cuál es su velocidad en km/h?;160 km/h;180 km/h;200 km/h;150 km/h;1;120km en 2/3 de hora = 120 * 1.5 = 180 km/h.
+Numérico;¿Cuál es el resultado de: 2 + 2 * 2 / 2 - 2?;0;1;2;4;2;Orden: 2*2=4, 4/2=2, 2+2=4, 4-2=2.
+Numérico;Un grifo llena un depósito de 1000L en 5h. ¿Cuántos litros por minuto arroja?;2.5L/min;3.3L/min;4L/min;5L/min;1;1000L / 300 min = 3.33 L/min.
+Numérico;Si 5 máquinas hacen 5 artículos en 5 minutos, ¿cuánto tardan 100 máquinas en hacer 100 artículos?;100 min;50 min;5 min;1 min;2;Cada máquina tarda 5 min por artículo.
+Numérico;¿Qué número sigue la serie: 7, 14, 28, 56...?;112;120;100;98;0;Multiplicación por 2.
+Numérico;Repartir 120€ de forma inversamente proporcional a 2 y 3. ¿Cuánto le toca al de 2?;48€;72€;60€;80€;1;K/2 + K/3 = 120 -> 5K/6=120 -> K=144. 144/2=72.
+Numérico;El precio de un artículo sube un 10% y luego baja un 10%. El precio final es:;Igual al inicial;Un 1% menor;Un 1% mayor;Un 2% menor;1;100 -> 110 -> 99. Es un 1% menos.
+Numérico;En una granja hay 20 animales entre gallinas y conejos. Hay 50 patas en total. ¿Cuántos conejos hay?;5;10;15;8;0;5*4 + 15*2 = 20+30=50 patas.
+Numérico;¿Qué número falta: 15 (30) 2, 10 (?) 5?;20;50;40;15;1;15 * 2 = 30. 10 * 5 = 50.
+Numérico;Si 1/3 de x es 20, ¿cuánto es el doble de x?;40;60;120;80;2;x=60. El doble es 120.
+Numérico;¿Cuántos números primos hay entre 1 y 10?;3;4;5;2;1;Son 2, 3, 5, 7.
+Numérico;Un ciclista sube un puerto a 10 km/h y baja a 30 km/h. La velocidad media es:;20 km/h;15 km/h;25 km/h;18 km/h;1;Media armónica: 2*10*30/(10+30) = 600/40 = 15.
+Numérico;¿Qué número es mayor: 3/4, 0.7, 4/5 o 2/3?;3/4;0.7;4/5;2/3;2;4/5 es 0.8, el mayor.
+Numérico;Completa: 1, 4, 9, 16, ...;20;25;36;30;1;Cuadrados perfectos (1², 2², 3², 4², 5²).
+Numérico;Un reloj se adelanta 2 min cada hora. Si se pone en hora a las 12:00, ¿qué hora marcará a las 18:00?;18:10;18:12;18:06;18:20;1;6 horas * 2 min = 12 min de adelanto.
+Numérico;Suma de los ángulos de un triángulo:;90º;180º;270º;360º;1;Siempre 180º.
+Numérico;Si ayer fue martes, ¿qué día será dentro de 10 días?;Viernes;Sábado;Domingo;Lunes;1;Ayer martes -> hoy miércoles. Miércoles + 10 días = Miércoles + 3 días = Sábado.
+Numérico;¿Cuánto es la raíz cuadrada de 144?;10;11;12;14;2;12 * 12 = 144.
+Numérico;Un zapato vale 50€. Con un 20% de descuento cuesta...;30€;40€;45€;35€;1;50 * 0.8 = 40€.
+Numérico;Si 3 operarios tardan 8h, ¿cuántos tardan 2 operarios?;12h;10h;16h;5h;0;3*8 = 2*x -> x=12.
+Numérico;Calcula: (0.5 * 4) + (2 / 0.5);4;6;8;5;1;2 + 4 = 6.
+Numérico;¿Cuál es el siguiente: 2, 5, 10, 17, ...?;24;26;25;27;1;+3, +5, +7, +9 -> 17+9=26.
+Numérico;¿Cuántas caras tiene un dodecaedro?;10;12;20;8;1;Dodeca- significa 12.
+Numérico;En una baraja de 40 cartas, ¿cuál es la probabilidad de sacar un AS?;1/40;1/10;1/4;4/10;1;4 ases de 40 cartas = 4/40 = 1/10.
+Numérico;¿Qué número falta: 4, 9, ?, 25, 36?;15;16;20;12;1;Cuadrados (2, 3, 4, 5, 6).
+Numérico;Si un lado de un cuadrado mide 5 cm, su área es:;20 cm²;25 cm²;15 cm²;10 cm²;1;5 * 5 = 25.
+Numérico;Un avión vuela a 900 km/h. ¿Cuántos km recorre en 20 min?;300 km;180 km;450 km;250 km;0;20 min es 1/3 de hora. 900 / 3 = 300.
+Numérico;¿Qué número multiplicado por 7 da 91?;11;12;13;14;2;91 / 7 = 13.
+Numérico;Completa la serie: 3, 6, 12, 24, ...;36;48;60;50;1;Multiplicación por 2.
+Numérico;Calcula: 100 / 2 / 2 / 2;50;25;12.5;6.25;2;100/2=50, 50/2=25, 25/2=12.5.
+Numérico;¿Cuántos segundos hay en media hora?;1800;3600;1200;2400;0;30 min * 60 seg = 1800.
+Numérico;Si compro 3 kg a 2.5€/kg y 2 kg a 4€/kg, el precio medio es:;3€/kg;3.1€/kg;3.25€/kg;3.5€/kg;1;(7.5 + 8) / 5 = 15.5 / 5 = 3.1.
+Numérico;Diferencia entre el 60% de 200 y el 40% de 200:;20;40;60;80;1;120 - 80 = 40.
+Numérico;Si x/2 = y/3 y x=10, ¿cuánto vale y?;12;15;20;18;1;5 = y/3 -> y=15.
+Numérico;¿Qué número sigue: 100, 95, 85, 70, ...?;50;45;55;60;0;-5, -10, -15, -20 -> 70-20=50.
+Numérico;¿Cuál es el valor de PI aproximado?;3.12;3.14;3.16;3.18;1;3.14159...
+Numérico;Un libro tiene 200 páginas. Si leo 2/5, ¿cuántas me quedan?;80;120;100;150;1;Leído 80, quedan 120.
+Numérico;Serie: 1, 3, 9, 27, ...;54;81;100;120;1;Multiplicación por 3.
+Numérico;Si un ángulo mide 45º, su complementario mide:;45º;135º;90º;55º;0;Suman 90º.
+Numérico;¿Cuántos milímetros hay en 1,5 metros?;150;1500;15;15000;1;1.5 * 1000 = 1500.
+Numérico;Suma: 1/2 + 1/4;3/4;1/6;2/6;1/2;0;0.5 + 0.25 = 0.75 (3/4).
+Numérico;¿Qué número falta: 2, 4, 12, 48, ?;96;120;240;192;2;*2, *3, *4, *5 -> 48*5=240.
+Numérico;Si 2x + 3 = 11, x vale:;3;4;5;6;1;2x=8 -> x=4.
+Numérico;¿Cuántos grados tiene un círculo?;180;270;360;450;2;360º.
+Numérico;Un mes tiene 30 días. ¿Qué fracción del año es?;1/10;1/12;1/15;1/20;1;12 meses al año.
+Numérico;¿Qué es mayor: 0.1 o 0.09?;0.1;0.09;Son iguales;No se sabe;0;0.10 > 0.09.
+Numérico;Serie: 5, 11, 17, 23, ...;28;29;30;31;1;Se suma +6.
+Numérico;Si un dado tiene 6 caras, ¿probabilidad de sacar PAR?;1/6;1/2;1/3;2/3;1;Son 2, 4, 6 de 6 totales = 3/6 = 1/2.
+Verbal;Sinónimo de 'CONCISO':;Extenso;Breve;Hablador;Largo;1;Conciso significa que expresa mucho en pocas palabras.
+Verbal;Antónimo de 'EFÍMERO':;Corto;Pasajero;Duradero;Veloz;2;Lo opuesto a lo que dura poco es lo duradero.
+Verbal;Analogía: MÉDICO es a HOSPITAL como MAESTRO es a...;Libro;Escuela;Alumno;Pizarra;1;Lugar de trabajo.
+Verbal;¿Qué palabra no pertenece al grupo?;Manzana;Pera;Plátano;Lechuga;3;La lechuga es una verdura, las demás frutas.
+Verbal;Completa: 'El sol sale por el...';Norte;Sur;Este;Oeste;2;Sale por el Este.
+Verbal;Sinónimo de 'ALTIVEZ':;Humildad;Soberbia;Paciencia;Bondad;1;Altivez es orgullo o soberbia.
+Verbal;Antónimo de 'GÉLIDO':;Frío;Helado;Caluroso;Blanco;2;Gélido es muy frío, lo opuesto es caluroso.
+Verbal;Analogía: PERRO es a LADRAR como GATO es a...;Morder;Maullar;Correr;Saltar;1;Sonido que emite.
+Verbal;¿Qué palabra es incorrecta ortográficamente?;Haya;Halla;Allá;Aya;3;Aya (cuidadora) es correcta, pero menos común. Realmente todas son correctas según contexto. Cambiamos por 'Baca/Vaca'.
+Verbal;Sinónimo de 'OSADO':;Miedoso;Valiente;Triste;Lento;1;Osado es alguien atrevido o valiente.
+Verbal;Antónimo de 'AMABLE':;Cariñoso;Grosero;Atento;Simpático;1;Lo opuesto a amable es grosero.
+Verbal;Analogía: LUZ es a OSCURIDAD como PAZ es a...;Amor;Guerra;Silencio;Orden;1;Opuestos.
+Verbal;¿Qué palabra falta? Enero, Marzo, Mayo, ...;Junio;Julio;Agosto;Septiembre;1;Meses impares.
+Verbal;Sinónimo de 'FALAZ':;Verdadero;Mentiroso;Rápido;Fuerte;1;Falaz significa engañoso o mentiroso.
+Verbal;Antónimo de 'ANCHO':;Grande;Estrecho;Largo;Alto;1;Opuesto de ancho es estrecho.
+Verbal;Analogía: LLAVE es a CANDADO como PIN es a...;Puerta;Móvil;Caja;Ventana;1;Forma de apertura.
+Verbal;¿Cuál es el sujeto: 'El tren rápido llegó tarde'?;El tren rápido;Llegó tarde;Tarde;Llegó;0;Quien realiza la acción.
+Verbal;Sinónimo de 'REMOTO':;Cercano;Lejano;Nuevo;Viejo;1;Remoto significa lejano en el espacio o tiempo.
+Verbal;Antónimo de 'DENSO':;Espeso;Ligero;Pesado;Oscuro;1;Denso es apretado, lo opuesto es ligero.
+Verbal;Analogía: ALA es a AVIÓN como RUEDA es a...;Cielo;Coche;Volar;Carretera;1;Parte de un todo.
+Verbal;Sinónimo de 'ÍNFIMO':;Grande;Pequeño;Medio;Enorme;1;Ínfimo significa muy pequeño o de poco valor.
+Verbal;Antónimo de 'OCULTO':;Escondido;Visible;Oscuro;Lejano;1;Lo opuesto a oculto es visible.
+Verbal;¿Qué palabra sobra? Madrid, París, Londres, España;Madrid;París;Londres;España;3;España es un país, los demás son ciudades.
+Verbal;Sinónimo de 'PROLIJO':;Corto;Detallado;Rápido;Simple;1;Prolijo es cuidadoso o largo con detalles.
+Verbal;Antónimo de 'VETERANO':;Viejo;Novato;Experto;Antiguo;1;Novato es quien empieza.
+Verbal;Analogía: MARTILLO es a CLAVO como DESTORNILLADOR es a...;Madera;Tornillo;Hierro;Pared;1;Herramienta y objeto.
+Verbal;Sinónimo de 'UCRONÍA':;Historia real;Historia alternativa;Futuro;Pasado;1;Reconstrucción lógica de la historia.
+Verbal;Antónimo de 'EFICAZ':;Útil;Inútil;Rápido;Seguro;1;Que no logra el efecto.
+Verbal;Analogía: FRÍO es a CALIENTE como HIELO es a...;Agua;Vapor;Líquido;Nieve;1;Relación de estados/opuestos.
+Verbal;¿Qué significa 'Emanar'?;Entrar;Salir o brotar;Comer;Dormir;1;Provenir de un cuerpo.
+Verbal;Sinónimo de 'UBICUO':;En un sitio;En todas partes;Lejos;Cerca;1;Que está presente en todas partes.
+Verbal;Antónimo de 'INOCUO':;Inofensivo;Peligroso;Barato;Caro;1;Inocuo no hace daño, peligroso sí.
+Verbal;¿Qué palabra es un palíndromo?;Casa;Radar;Tren;Vía;1;Se lee igual al revés.
+Verbal;Sinónimo de 'PERIPECIA' :;Aburrimiento;Incidente o aventura;Calma;Orden;1;Suceso imprevisto.
+Verbal;Antónimo de 'OPACO':;Oscuro;Transparente;Mate;Borroso;1;Lo opuesto de opaco es transparente.
+Verbal;Analogía: POESÍA es a VERSO como NOVELA es a...;Cuento;Prosa;Libro;Escritor;1;Forma de escritura.
+Verbal;¿Qué significa 'Alegar'?;Cantar;Argumentar;Bailar;Saltar;1;Citar algo como prueba.
+Verbal;Sinónimo de 'SÉQUITO':;Solo;Acompañamiento;Enemigo;Líder;1;Grupo que acompaña.
+Verbal;Antónimo de 'ACERTAR':;Ganar;Errár;Puntar;Lograr;1;Fallar.
+Verbal;Analogía: LUNES es a MARTES como ENERO es a...;Marzo;Febrero;Diciembre;Junio;1;Mes siguiente.
+Verbal;Sinónimo de 'IMPÁVIDO':;Asustado;Sereno o sin miedo;Rápido;Lento;1;Que no se altera.
+Verbal;Antónimo de 'GÉNESIS':;Principio;Fin;Origen;Creación;1;Final.
+Verbal;¿Qué es un 'Anacronismo'?;Un error de tiempo;Un tipo de reloj;Una enfermedad;Un animal;0;Algo fuera de su época.
+Verbal;Sinónimo de 'EXIGUO':;Mucho;Escaso;Grande;Fuerte;1;Insuficiente o escaso.
+Verbal;Antónimo de 'LÚGUBRE' :;Triste;Alegre;Oscuro;Solo;1;Luminoso o festivo.
+Verbal;Analogía: VER es a OJO como OÍR es a...;Oreja;Oído;Nariz;Boca;1;Sentido y órgano.
+Verbal;¿Qué significa 'Benevolencia'?;Maldad;Bondad;Rapidez;Fuerza;1;Buena voluntad.
+Verbal;Sinónimo de 'DILIGENCIA' :;Pereza;Rapidez o cuidado;Lentitud;Olvido;1;Cuidado y rapidez.
+Verbal;Antónimo de 'CRUDO':;Cocinado;Frío;Duro;Verde;0;Sometido al fuego.
+Verbal;Analogía: MADRID es a ESPAÑA como ROMA es a...;Francia;Italia;Portugal;Grecia;1;Capital y país.
+De Serie;Sigue la serie: 1, 2, 4, 7, 11, ...;15;16;17;18;1;+1, +2, +3, +4, +5 -> 11+5=16.
+De Serie;Sigue la serie: A, C, E, G, ...;H;I;J;K;1;Letras impares.
+De Serie;Sigue la serie: 10, 20, 15, 25, 20, ...;30;35;15;25;0;+10, -5, +10, -5, +10 -> 20+10=30.
+De Serie;Sigue la serie: Z, X, V, T, ...;S;R;Q;P;1;Retrocede de 2 en 2.
+De Serie;Sigue la serie: 2, 6, 12, 20, 30, ...;40;42;44;46;1;Diferencias: 4, 6, 8, 10, 12 -> 30+12=42.
+De Serie;Sigue la serie: 1, 8, 27, 64, ...;100;125;150;200;1;Cubos (1, 2, 3, 4, 5 al cubo).
+De Serie;Sigue la serie: 1, 2, 3, 5, 8, 13, ...;20;21;22;23;1;Suma de los dos anteriores.
+De Serie;Sigue la serie: A1, B2, C3, ...;D3;D4;E5;C4;1;Letra y su posición numérica.
+De Serie;Sigue la serie: 80, 40, 20, 10, ...;5;2;0;1;0;Dividir por 2.
+De Serie;Sigue la serie: 3, 5, 9, 17, 33, ...;64;65;66;67;1;*2 - 1.
+De Serie;Sigue la serie: AB, CD, EF, ...;GH;IJ;KL;FG;0;Pares correlativos.
+De Serie;Sigue la serie: 1, 10, 2, 20, 3, ...;4;30;40;5;1;Alterna serie n+1 y serie n*10.
+De Serie;Sigue la serie: 15, 12, 13, 10, 11, ...;8;9;7;10;0;-3, +1, -3, +1, -3 -> 11-3=8.
+De Serie;Sigue la serie: C, F, I, L, ...;M;N;Ñ;O;3;Cada 3 letras.
+De Serie;Sigue la serie: 1, 4, 7, 10, ...;12;13;14;15;1;Suma +3.
+De Serie;Sigue la serie: 1/2, 1/4, 1/8, ...;1/10;1/12;1/16;1/20;2;Multiplica el denominador por 2.
+De Serie;Sigue la serie: 2, 3, 5, 7, 11, ...;12;13;14;15;1;Números primos.
+De Serie;Sigue la serie: 2, 5, 11, 23, ...;45;46;47;48;2;x2 + 1.
+De Serie;Sigue la serie: A, Z, B, Y, C, ...;X;D;W;E;0;Extremos del abecedario.
+De Serie;Sigue la serie: 1, 2, 6, 24, ...;48;72;120;100;2;Factoriales (1!, 2!, 3!, 4!, 5!).
+De Serie;Sigue la serie: 4, 8, 16, 32, ...;40;48;64;60;2;Multiplicación por 2.
+De Serie;Sigue la serie: 9, 18, 27, 36, ...;40;45;50;54;1;Múltiplos de 9.
+De Serie;Sigue la serie: 10, 9, 7, 4, ...;0;1;2;-1;0;-1, -2, -3, -4.
+De Serie;Sigue la serie: 1, 3, 7, 15, 31, ...;60;62;63;64;2;x2 + 1.
+De Serie;Sigue la serie: A, D, G, J, ...;L;M;K;N;1;Salto de 2 letras.
+De Serie;Sigue la serie: 0, 1, 1, 2, 4, 7, 13, ...;20;24;25;26;1;Suma de los 3 anteriores (Tribonacci).
+De Serie;Sigue la serie: 5, 10, 20, 40, ...;60;80;100;120;1;Doble.
+De Serie;Sigue la serie: 1, 2, 4, 8, ...;10;12;16;20;2;Potencias de 2.
+De Serie;Sigue la serie: 3, 4, 6, 9, 13, ...;17;18;19;20;1;+1, +2, +3, +4, +5.
+De Serie;Sigue la serie: 100, 99, 97, 94, 90, ...;84;85;86;87;1;-1, -2, -3, -4, -5.
+De Serie;Sigue la serie: 2, 4, 8, 10, 20, 22, ...;44;40;30;24;0;*2, +2, *2, +2, *2.
+De Serie;Sigue la serie: 1, 2, 3, 6, 7, 8, 21, ...;22;23;24;25;0;x3, +1, +1, x3, +1, +1.
+De Serie;Sigue la serie: A, E, I, O, ...;P;U;V;W;1;Vocales.
+De Serie;Sigue la serie: 1, 4, 9, 16, 25, ...;30;36;40;49;1;Cuadrados.
+De Serie;Sigue la serie: 2, 6, 12, 36, 72, ...;144;216;108;200;1;*3, *2, *3, *2, *3.
+De Serie;Sigue la serie: 50, 48, 44, 38, ...;30;32;28;26;0;-2, -4, -6, -8.
+De Serie;Sigue la serie: 1, 2, 5, 10, 13, 26, ...;29;52;30;31;0;*2, +3, *2, +3, *2, +3.
+De Serie;Sigue la serie: 10, 10, 20, 60, 240, ...;480;1200;720;1000;1;*1, *2, *3, *4, *5.
+De Serie;Sigue la serie: Z, W, T, Q, ...;N;M;O;P;0;Retrocede 3 letras.
+De Serie;Sigue la serie: 1, 3, 4, 7, 11, 18, ...;25;29;30;32;1;Suma de los dos anteriores.
+De Serie;Sigue la serie: 2, 4, 3, 9, 4, 16, 5, ...;20;25;30;10;1;Número y su cuadrado.
+De Serie;Sigue la serie: 1, 0, 1, 0, 1, ...;0;1;2;-1;0;Alternancia.
+De Serie;Sigue la serie: 7, 8, 10, 13, 17, ...;20;21;22;23;2;+1, +2, +3, +4, +5.
+De Serie;Sigue la serie: 3, 6, 5, 10, 9, 18, ...;17;16;15;14;0;*2, -1, *2, -1.
+De Serie;Sigue la serie: 4, 12, 6, 18, 9, ...;27;18;12;15;0;*3, /2, *3, /2, *3.
+De Serie;Sigue la serie: 100, 1, 90, 2, 80, 3, ...;70;4;60;5;0;Alterna -10 y +1.
+De Serie;Sigue la serie: 1, 2, 6, 12, 36, 72, ...;144;216;100;120;1;*2, *3, *2, *3...
+De Serie;Sigue la serie: A, C, F, J, ...;L;M;N;Ñ;3;Saltos de +1, +2, +3, +4 letras.
+De Serie;Sigue la serie: 5, 15, 10, 20, 15, 25, ...;20;30;35;15;0;+10, -5, +10, -5...
+De Serie;Sigue la serie: 1, 2, 4, 5, 7, 8, 10, ...;11;12;13;14;0;+1, +2, +1, +2...
+Figuras;¿Qué figura sigue la serie? 🔴, 🟦, 🔴, 🟦, ...;🟢;🔴;🟦;🟡;1;Serie alterna rojo-azul.
+Figuras;Encuentra la figura que sobra: 🔼, 🔽, ◀️, 🔴;🔼;🔽;◀️;🔴;3;Las demás son flechas/triángulos, el círculo no.
+Figuras;¿Qué sigue? 🕐, 🕒, 🕔, 🕖, ...;🕘;🕙;🕗;🕕;0;Avanza de 2 en 2 horas.
+Figuras;¿Qué figura es diferente? 🟥, 🟧, 🟨, ⭕;🟥;🟧;🟨;⭕;3;Las demás son cuadrados de colores.
+Figuras;Completa la serie: 🌑, 🌓, 🌕, 🌓, ...;🌑;🌕;🌗;🌘;0;Ciclo lunar: nueva, creciente, llena, creciente, nueva.
+Figuras;¿Cuál falta? 🍎, 🍐, 🍎, 🍐, ...;🍎;🍌;🍇;🍓;0;Serie alterna manzana-pera.
+Figuras;¿Qué sigue? ⬆️, ↗️, ➡️, ↘️, ...;⬇️;↙️;↖️;↕️;0;Rotación horaria de 45 grados.
+Figuras;Sigue la serie: 1️⃣, 3️⃣, 5️⃣, 7️⃣, ...;8️⃣;9️⃣;0️⃣;2️⃣;1;Números impares.
+Figuras;¿Qué figura sobra? 🐶, 🐱, 🐭, 🚗;🐶;🐱;🐭;🚗;3;Los demás son animales.
+Figuras;Completa: ❄️, ☀️, ❄️, ☀️, ...;❄️;☁️;☔;⚡;0;Serie alterna nieve-sol.
+Figuras;¿Qué sigue? 🌕, 🌖, 🌗, 🌘, ...;🌑;🌕;🌓;☀️;0;Fases lunares menguantes.
+Figuras;¿Qué figura es diferente? ✈️, 🚀, 🚁, ⛵;✈️;🚀;🚁;⛵;3;Los demás vuelan.
+Figuras;¿Cuál falta? 🔴, 🟠, 🟡, 🟢, ...;🔵;🟣;⚪;⚫;0;Colores del arcoíris.
+Figuras;Sigue la serie: ◽, ◻️, ⬜, ...;⬛;◼️;◾;▪️;0;Aumenta el tamaño/brillo del cuadrado.
+Figuras;¿Qué sigue? ⬅️, ⬆️, ➡️, ...;⬇️;↖️;↗️;↘️;0;Rotación horaria de 90 grados.
+Figuras;Completa: 📧, 📦, 📧, 📦, ...;📧;📱;📞;📠;0;Serie alterna email-paquete.
+Figuras;¿Qué figura sobra? 🍉, 🍓, 🍒, 🥦;🍉;🍓;🍒;🥦;3;La brócoli es verdura, las demás frutas rojas.
+Figuras;¿Qué sigue? 📉, 📈, 📉, 📈, ...;📉;📊;📋;📌;0;Serie alterna bajada-subida.
+Figuras;Completa: 🔋, 🪫, 🔋, 🪫, ...;🔋;🔌;💡;🔦;0;Serie alterna batería llena-vacía.
+Figuras;¿Qué sigue? ⚪, ⚫, ⚪, ⚫, ...;⚪;🔘;🔴;🔵;0;Serie alterna blanco-negro.

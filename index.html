@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Opositest Ferro">
+    <meta name="theme-color" content="#007AFF">
+    <meta name="description" content="Tu plaza en Renfe empieza aquí">
+
+    <title>Opositest Ferro</title>
+
+    <link rel="manifest" href="manifest.json">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/layout.css">
+
+    <style>
+        .sf-icon { font-style: normal; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div class="view-container">
+            <!-- Welcome View -->
+            <div id="view-welcome" class="view"></div>
+
+            <!-- Home View -->
+            <div id="view-home" class="view"></div>
+
+            <!-- Simulacro View -->
+            <div id="view-simulacro" class="view"></div>
+
+            <!-- Biblioteca View -->
+            <div id="view-biblioteca" class="view"></div>
+
+            <!-- Perfil View -->
+            <div id="view-perfil" class="view"></div>
+
+            <!-- Exam View -->
+            <div id="view-exam" class="view"></div>
+
+            <!-- Results View -->
+            <div id="view-results" class="view"></div>
+
+            <!-- Flashcard View -->
+            <div id="view-flashcard" class="view"></div>
+
+            <!-- Detail View -->
+            <div id="view-detail" class="view"></div>
+
+            <!-- Evolution View -->
+            <div id="view-evolution" class="view"></div>
+        </div>
+
+        <!-- Tab Bar -->
+        <div class="tab-bar" id="tab-bar">
+            <div class="tab-item active" data-tab="0">
+                <i>🏠</i>
+                <span>Inicio</span>
+            </div>
+            <div class="tab-item" data-tab="1">
+                <i>📝</i>
+                <span>Simulacro</span>
+            </div>
+            <div class="tab-item" data-tab="2">
+                <i>📖</i>
+                <span>Biblioteca</span>
+            </div>
+            <div class="tab-item" data-tab="3">
+                <i>👤</i>
+                <span>Perfil</span>
+            </div>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loading-overlay" class="loading-overlay"></div>
+
+        <!-- Confetti Canvas -->
+        <canvas id="confetti-canvas"></canvas>
+    </div>
+
+    <script src="js/db.js"></script>
+    <script src="js/store.js"></script>
+    <script src="js/parser.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+:root {
+    /* Primary Colors */
+    --primary: #007AFF;
+    --accent: #007AFF;
+    --error: #FF3B30;
+    --success: #34C759;
+    --warning: #FF9500;
+    --tertiary: #FF9500;
+
+    /* Accent options */
+    --accent-orange: #FF9500;
+    --accent-green: #34C759;
+    --accent-purple: #AF52DE;
+    --accent-red: #FF2D55;
+    --accent-indigo: #5856D6;
+
+    /* Light Mode - iOS System Colors */
+    --bg: #F2F2F7;
+    --bg-secondary: #FFFFFF;
+    --on-surface: #000000;
+    --outline: #3C3C43;
+    --outline-opacity: rgba(60, 60, 67, 0.6);
+    --card-stroke: rgba(0, 0, 0, 0.04);
+    --tab-bg: rgba(249, 249, 249, 0.94);
+    --tab-bar: rgba(0, 0, 0, 0.04);
+    --glass-bg: rgba(255, 255, 255, 0.5);
+    --glass-stroke: rgba(255, 255, 255, 0.2);
+    --input-bg: rgba(142, 142, 147, 0.12);
+    --overlay: rgba(0, 0, 0, 0.4);
+    --correct-bg: rgba(52, 199, 89, 0.15);
+    --correct-stroke: #34C759;
+    --incorrect-bg: rgba(255, 59, 48, 0.15);
+    --incorrect-stroke: #FF3B30;
+
+    /* Shadows */
+    --shadow-ios: 0 5px 10px rgba(0, 0, 0, 0.05);
+    --shadow-button: 0 8px 15px rgba(0, 122, 255, 0.4);
+    --shadow-glow: 0 0 0 rgba(0, 122, 255, 0);
+
+    /* Typography */
+    --font-system: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Rounded', 'Segoe UI', Roboto, sans-serif;
+
+    /* Spacing */
+    --safe-top: env(safe-area-inset-top, 20px);
+    --safe-bottom: env(safe-area-inset-bottom, 0px);
+    --tab-height: 83px;
+    --header-height: 96px;
+
+    /* Border Radius */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-2xl: 24px;
+    --radius-full: 999px;
+
+    /* Transitions */
+    --spring-ease: cubic-bezier(0.3, 0.6, 0.3, 1);
+    --ease-out: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+        --bg: #000000;
+        --bg-secondary: #1C1C1E;
+        --on-surface: #FFFFFF;
+        --outline: #EBEBF5;
+        --outline-opacity: rgba(235, 235, 245, 0.6);
+        --card-stroke: rgba(255, 255, 255, 0.08);
+        --tab-bg: rgba(28, 28, 30, 0.94);
+        --tab-bar: rgba(255, 255, 255, 0.04);
+        --glass-bg: rgba(28, 28, 30, 0.5);
+        --glass-stroke: rgba(255, 255, 255, 0.1);
+        --input-bg: rgba(142, 142, 147, 0.24);
+        --overlay: rgba(0, 0, 0, 0.6);
+    }
+}
+
+[data-theme="dark"] {
+    --bg: #000000;
+    --bg-secondary: #1C1C1E;
+    --on-surface: #FFFFFF;
+    --outline: #EBEBF5;
+    --outline-opacity: rgba(235, 235, 245, 0.6);
+    --card-stroke: rgba(255, 255, 255, 0.08);
+    --tab-bg: rgba(28, 28, 30, 0.94);
+    --tab-bar: rgba(255, 255, 255, 0.04);
+    --glass-bg: rgba(28, 28, 30, 0.5);
+    --glass-stroke: rgba(255, 255, 255, 0.1);
+    --input-bg: rgba(142, 142, 147, 0.24);
+    --overlay: rgba(0, 0, 0, 0.6);
+}

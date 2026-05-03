@@ -1,0 +1,192 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    font-family: var(--font-system);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-size-adjust: 100%;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--on-surface);
+    overflow: hidden;
+    height: 100dvh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
+}
+
+.view {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transform: translateX(20px);
+    pointer-events: none;
+    transition: opacity 0.3s var(--ease-out), transform 0.3s var(--ease-out);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: calc(var(--tab-height) + var(--safe-bottom));
+}
+
+.view.active {
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+}
+
+.view.exit {
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+/* Scroll view content */
+.scroll-content {
+    padding: 0 20px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+
+/* Typography */
+.display-font {
+    font-size: 34px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+}
+
+.h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.h3 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.body-lg {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.47;
+}
+
+.body-sm {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.label-md {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.label-sm {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Text colors */
+.text-on-surface { color: var(--on-surface); }
+.text-outline { color: var(--outline); color: var(--outline-opacity); }
+.text-primary { color: var(--primary); }
+.text-accent { color: var(--accent); }
+.text-error { color: var(--error); }
+.text-success { color: var(--success); }
+.text-warning { color: var(--warning); }
+
+/* Links */
+a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+/* Buttons reset */
+button {
+    font-family: inherit;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: inherit;
+    color: inherit;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+/* Inputs */
+input, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    border: none;
+    outline: none;
+    background: none;
+    color: var(--on-surface);
+}
+
+/* Selection */
+::selection {
+    background: var(--accent);
+    color: white;
+}
+
+/* Hide scrollbar but keep scrolling */
+.view::-webkit-scrollbar {
+    display: none;
+}
+.view {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* Focus styles for accessibility */
+:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+/* Prevent overscroll */
+body {
+    overscroll-behavior: none;
+}
+
+/* Safe area padding */
+@supports (padding: max(0px)) {
+    .scroll-content {
+        padding-left: max(20px, env(safe-area-inset-left));
+        padding-right: max(20px, env(safe-area-inset-right));
+    }
+}

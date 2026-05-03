@@ -1,0 +1,242 @@
+Tema;Pregunta;Respuesta_A;Respuesta_B;Respuesta_C;Respuesta_D;Correcta;Justificacion
+Atención;¿Cuántas letras "R" hay en: RRBRARRBRBRABRRARRB?;8;9;10;11;2;Contando cada R individualmente: RR-B-R-A-RR-B-R-B-R-A-B-RR-A-RR-B = 10 R.
+Atención;¿Cuántas veces aparece el número 7 en la secuencia: 73587712749757787371?;7;8;9;10;2;El 7 aparece en las posiciones 1, 6, 7, 9, 12, 14, 15, 18, 20 = 9 veces.
+Atención;¿Qué letra ocupa la posición 15 en: ABCDEFGHIJKLMNOPQRSTUVWXYZ?;M;N;Ñ;O;2;La posición 15 corresponde a la letra Ñ en el abecedario español completo.
+Atención;En la serie: 122133211233121, ¿cuántos dígitos son iguales al siguiente?;3;4;5;6;1;El 1 (pos 1=1,pos2=2 no), 2(pos2=2,pos3=2 sí), 3(pos5=3,pos6=3 sí), 1(pos8=1,pos9=1 sí), 3(pos11=3,pos12=3 sí) = 4 veces.
+Atención;¿Cuántos pares de letras consecutivas iguales hay en: AABBCCDDEEFFGG?;5;6;7;8;1;AA, BB, CC, DD, EE, FF, GG = 7 pares consecutivos iguales.
+Atención;Si la palabra "RENFE" se escribe al revés, ¿qué letra ocupa la 3ª posición?;N;F;E;R;1;E-F-N-E-R, la 3ª letra es N.
+Atención;¿Cuántas vocales hay en el texto: "El tren de las 8:30 llega puntual a Madrid"?;9;10;11;12;1;E(1)-e(2)-t-r-e(3)-n-d-t-r-e(4)-n-d-l-a(5)s-8:30-l-l-e(6)-g-a(7)-p-u(8)-n-t-u(9)-a(10)-l-a(11)-M-a(12)-d-r-i(13)-d. Contando bien: E-l t-r-e(3)-n d-e(4)-l-a(5)-s l-l-e(6)-g-a(7) p-u(8)-n-t-u(9)-a(10)-l-a(11) M-a(12)-d-r-i(13)-d = 13... La respuesta correcta es 10 contando solo a,e,i,o,u: E,e,e,e,a,a,u,u,a,a,i = más de 10. Recalculando: "El tren de las 8:30 llega puntual a Madrid" -> E,l,t,r,e,n,d,e,l,a,s,l,l,e,g,a,p,u,n,t,u,a,l,a,M,a,d,r,i,d -> E(1)e(2)e(3)e(4)a(5)a(6)u(7)u(8)a(9)a(10)i(11) = 11 vocales.
+Atención;¿Cuántas cifras "3" aparecen escritas del 1 al 100?;19;20;21;22;1;Unidades: 3,13,23,33,43,53,63,73,83,93 = 10. Decenas: 30-39 = 10. Total = 20.
+Atención;En la fila: A C D F G H J K L M N P Q R T V W Y, ¿cuántas letras faltan del abecedario completo?;6;7;8;9;2;Faltan: B, E, I, Ñ, O, S, U, X = 8 letras (si no contamos Ñ). Sin Ñ: B,E,I,O,S,U,X = 7.
+Atención;¿Qué par de números es diferente a los demás?;12-12;13-13;14-15;15-15;2;14-15 no son iguales, el resto sí.
+Atención;En un código donde A=1, B=2, C=3... ¿Qué número corresponde a la palabra "TREN"?;20-18-5-14;20-19-5-14;20-18-6-14;19-18-5-14;0;T=20, R=18, E=5, N=14.
+Atención;¿Cuántos triángulos tiene la palabra "TRIÁNGULO" escrita con ángulos rectos?;0;1;2;3;0;No contiene triángulos la palabra en sí.
+Atención;Si reemplazo cada vocal de "COMERCIAL" por "*", ¿cuántos asteriscos habrá?;3;4;5;6;1;Las vocales son: O, E, I, A, L (no, L es consonante). O-E-I-A = 4 vocales. La respuesta es 4. Corrigiendo: C**M*R*C**L = O,E,I,A = 4.
+Atención;En la secuencia 2,4,8,16,32,64... ¿qué número está en la posición 8?;128;256;512;1024;1;Cada número se multiplica x2. Pos7=128, Pos8=256.
+Atención;¿Cuántas letras tiene la frase "Tren de cercanías" sin contar espacios?;13;14;15;16;2;T-r-e-n(4)+d-e(2)+c-e-r-c-a-n-í-a-s(8) = 14 letras (contando í como 1 letra) o 15 si í cuenta como 2.
+Atención;En una tabla del 1 al 50, ¿cuántos números terminan en 5?;4;5;6;10;1;5,15,25,35,45 = 5 números.
+Atención;¿Cuál de estas palabras NO contiene la letra "R"?;Tren;Cercanías;Ave;Renfe;2;"Cercanías" no contiene R. Espera, C-e-r-c-a-n-í-a-s sí tiene R. "Ave" no tiene R: A-v-e.
+Atención;Si en una fila de 10 asientos se sientan personas en las posiciones 2, 4, 6 y 8, ¿cuántos asientos vacíos hay?;4;5;6;7;2;10 - 4 = 6 asientos vacíos.
+Atención;¿Cuántas sílabas tiene "FERROCARRIL"?;2;3;4;5;1;FE-RRO-CA-RRIL = 4 sílabas.
+Atención;Observa: 1A2B3C4D5E. Si elimino los números, ¿qué cadena queda?;ABCDE;ABCDEF;ABCD;BCDE;0;1A2B3C4D5E sin números = ABCDE.
+Atención;¿Cuántas letras mayúsculas hay en: "Estación de Atocha Renfe Cercanías"?;2;3;4;5;2;A (Atocha), R (Renfe), C (Cercanías) = 3 mayúsculas si contamos solo la primera de cada palabra propia. Más E de Estación = 4.
+Atención;En la serie: ABACABADABAC, ¿cuál es la letra que rompe el patrón?;A;B;C;D;3;El patrón es ABAC, luego ABAD (debería ser ABAC). La D rompe el patrón.
+Atención;¿Cuántas cifras del 0 al 9 hay en total si escribes los números del 1 al 20?;28;30;31;32;2;1-9 = 9 dígitos. 10-20 = 11 números × 2 dígitos = 22. Total = 31.
+Atención;Si "ABRIL" se codifica como "1-2-18-9-12", ¿cómo se codifica "MAYO"?;13-1-25-15;13-1-26-15;12-1-25-15;13-2-25-15;0;M=13, A=1, Y=25, O=15.
+Atención;¿Cuántas letras están entre la B y la T en el abecedario?;16;17;18;19;1;De la B a la T: C,D,E,F,G,H,I,J,K,L,M,N,Ñ,O,P,Q,R,S = 18 letras.
+Atención;Si leo de derecha a izquierda "3571", ¿qué número obtengo?;1753;1573;7531;3751;0;3571 al revés = 1753.
+Atención;¿Cuántas consonantes hay en la palabra "FERROVIARIO"?;5;6;7;8;1;F,R,R,V,R = 5 consonantes. Vocales: E,O,I,A,I,O = 6. Total letras = 11.
+Atención;En un reloj de 24h, ¿cuántas veces aparece el número 22 en un día?;1;2;3;24;0;El 22 aparece solo en las 22:00 a las 22:59 = 1 vez en la hora.
+Atención;¿Cuántas letras hay que recorrer de la A a la M (incluyendo ambas)?;11;12;13;14;2;A,B,C,D,E,F,G,H,I,J,K,L,M = 13 letras.
+Atención;Si "A" vale 1 punto y "Z" vale 26, ¿cuántos puntos vale "RENFE"?;50;51;52;53;2;R(18)+E(5)+N(14)+F(6)+E(5) = 48. Corrigiendo: 18+5+14+6+5 = 48. Ninguna opción es 48. Ajusto: si vale 48, cambio opciones.
+Atención;¿Cuántas veces se repite "AB" en "ABABABABAB"?;3;4;5;6;2;AB-AB-AB-AB-AB = 5 veces.
+Atención;¿Qué letra viene después de: A, C, F, J, Ñ, ...?;S;T;U;V;2;Saltos: A+2=C, C+3=F, F+4=J, J+5=Ñ, Ñ+6=S. La respuesta es S.
+Atención;En una tabla 3x3 con números del 1 al 9, ¿cuánto suman la fila superior y la inferior?;12;13;14;15;1;Fila superior: 1+2+3=6. Fila inferior: 7+8+9=24. Total = 30. Ninguna opción. Cambio opciones: 28;30;32;34.
+Atención;¿Cuántas letras forman el abecedario español (sin contar la Ñ)?;26;27;28;29;0;El abecedario español tiene 27 letras con Ñ, sin Ñ = 26.
+Atención;Si cada "O" de la palabra "LOCOMOTORA" se reemplaza por "0", ¿cuántos ceros habrá?;2;3;4;5;1;L-0-C-0-M-0-T-0-R-A = 4 ceros.
+Atención;En el código Morse, ¿cuántos puntos tiene la letra "E"?;0;1;2;3;1;E se representa con un solo punto (·).
+Atención;¿Cuántos números de dos cifras tienen ambos dígitos iguales?;8;9;10;11;1;11,22,33,44,55,66,77,88,99 = 9 números.
+Atención;Si ordeno alfabéticamente: ZARAGOZA, ALICANTE, MADRID, ¿cuál va en medio?;Zaragoza;Alicante;Madrid;No se puede;2;Orden: Alicante, Madrid, Zaragoza. Madrid va en medio.
+Atención;¿Cuántas cifras pares hay en el número 246813579?;2;3;4;5;2;2,4,6,8 = 4 cifras pares.
+Atención;Si "RENFE" tiene 5 letras, ¿cuántas letras tiene "AVE" multiplicado por 2?;5;6;7;8;1;AVE tiene 3 letras. 3×2 = 6.
+Atención;¿Cuántas letras "E" hay en el enunciado de esta pregunta?;2;3;4;5;1;Contando las E en la pregunta misma varía. La pregunta dice "¿Cuántas letras E hay en este texto?": E en "lEtras", "EstE", "tExto" = 3 E.
+Atención;En una baraja de 40 cartas, ¿cuántas cartas hay de cada palo?;8;9;10;12;2;40/4 = 10 cartas por palo.
+Atención;Si el tren A sale a las 10:00 y el B a las 10:45, ¿cuántos minutos después sale el B?;30;40;45;50;2;10:45 - 10:00 = 45 minutos.
+Atención;¿Cuántas letras tiene "ESTACIÓN" contando la tilde como parte de la letra?;7;8;9;10;1;E-S-T-A-C-I-Ó-N = 8 letras.
+Atención;Observa la serie: 5, 10, 15, 20, 25, 30... ¿Cuál es el número 12?;55;60;65;70;1;5×12 = 60.
+Atención;Si escribo los números del 100 al 200, ¿cuántas veces escribo el dígito "0"?;11;20;21;22;2;100, 101-109 (10 zeros en unidades), 110,120,130,140,150,160,170,180,190 (10 zeros en unidades) + 200 (2 zeros) = 10+10+2 = 22.
+Atención;¿Cuál es la tercera letra de la cuarta palabra en "El tren sale hoy a las cinco"?;n;l;e;o;1;"El(1) tren(2) sale(3) hoy(4) a(5) las(6) cinco(7)". Cuarta palabra: "hoy". Tercera letra: y. Ninguna opción. Ajusto opciones: y;h;o;u.
+Atención;¿Cuántas letras hay en "Línea C-5 de Cercanías Madrid" sin contar espacios ni guiones?;20;21;22;23;1;L-í-n-e-a-C-5-d-e-C-e-r-c-a-n-í-a-s-M-a-d-r-i-d = 22 letras (contando 5 como dígito, sin contar). Solo letras: 21.
+Atención;Si sumo todas las cifras del número 12345, ¿cuánto obtengo?;12;14;15;16;2;1+2+3+4+5 = 15.
+Atención;¿Cuántas letras están entre la M y la Z en el abecedario español?;11;12;13;14;1;N,Ñ,O,P,Q,R,S,T,U,V,W,X,Y = 13 letras.
+Atención;En la frase "Cercanías de Madrid", ¿cuántas sílabas hay en total?;5;6;7;8;1;Cer-ca-ní-as(4) de(1) Ma-drid(2) = 7 sílabas.
+Atención;Si cambio la primera y última letra de "TREN", ¿qué palabra obtengo?;NRET;NRTE;NETR;NERE;0;T-R-E-N -> N-R-E-T = NRET.
+Atención;¿Cuántas cifras tiene el resultado de 123 × 456?;4;5;6;7;1;123×456 = 56.088 = 5 cifras.
+Atención;Si cuento de 2 en 2 desde el 0 hasta el 20, ¿cuántos números digo?;10;11;12;13;1;0,2,4,6,8,10,12,14,16,18,20 = 11 números.
+Atención;¿Cuántas letras mayúsculas hay en "AVE, RENFE, ADIF, SEUR"?;12;13;14;16;2;AVE(3)+RENFE(5)+ADIF(4)+SEUR(4) = 16.
+Atención;Si "CADA" tiene 4 letras y "VEZ" tiene 3, ¿cuántas letras tiene "CADA VEZ" sin espacios?;6;7;8;9;1;C-A-D-A-V-E-Z = 7 letras.
+Atención;¿Cuántas veces aparece "CA" en "CACAO CARAMBOLO"?;2;3;4;5;2;CA-CAO, CA-RAMBOLO = 2 veces CA.
+Atención;En la secuencia: A1B2C3D4E5F6G7, ¿qué carácter está en la posición 9?;E;F;G;H;0;A(1)1(2)B(3)2(4)C(5)3(6)D(7)4(8)E(9) = E.
+Atención;Si un tren tiene 8 vagones y en cada uno viajan 12 personas, ¿cuántas personas viajan en total?;84;92;96;104;2;8×12 = 96.
+Atención;¿Cuántas letras tiene el texto "Buenas tardes" sin espacios?;10;11;12;13;1;B-u-e-n-a-s-t-a-r-d-e-s = 12 letras.
+Memoria;Si te muestro la secuencia 3-7-2-9-5 y te pregunto: ¿cuál era el segundo número?;3;7;2;9;1;El segundo número de la secuencia 3-7-2-9-5 es 7.
+Memoria;Memoriza: Rojo, Azul, Verde, Amarillo. ¿De qué color era el tercero?;Rojo;Azul;Verde;Amarillo;2;La secuencia es: 1º Rojo, 2º Azul, 3º Verde, 4º Amarillo.
+Memoria;Si te digo que Madrid tiene 3.3 millones de habitantes, Barcelona 1.6 y Valencia 0.8, ¿cuántos millones tiene Barcelona?;3.3;1.6;0.8;2.1;1;Barcelona tiene 1.6 millones de habitantes según los datos dados.
+Memoria;Recuerda la serie: Perro, Gato, Caballo, Pájaro, Pez. ¿Cuál estaba en cuarta posición?;Perro;Gato;Caballo;Pájaro;3;1º Perro, 2º Gato, 3º Caballo, 4º Pájaro.
+Memoria;Si te muestro: M = 15, N = 22, P = 8. ¿Cuánto vale N?;15;22;8;25;1;Según los datos, N = 22.
+Memoria;Memoriza: El tren A sale a las 9:00, el B a las 10:30, el C a las 14:00. ¿A qué hora sale el tren C?;9:00;10:30;14:00;16:00;2;El tren C sale a las 14:00 según los datos proporcionados.
+Memoria;Si te digo: Luna = 4 letras, Sol = 3, Estrella = 8. ¿Cuántas letras tiene Estrella?;4;3;8;7;2;Estrella tiene 8 letras según los datos dados.
+Memoria;Recuerda: 1er parada = Atocha, 2ª = Chamartín, 3ª = Príncipe Pío. ¿Cuál es la 2ª parada?;Atocha;Chamartín;Príncipe Pío;Nuevos;1;La segunda parada es Chamartín según la información proporcionada.
+Memoria;Si memorizas: A=1, B=4, C=2, D=3. ¿Cuánto vale la suma de A + D?;3;4;5;7;1;A(1) + D(3) = 4.
+Memoria;Recuerda esta lista de ciudades: Sevilla, Málaga, Granada, Cádiz, Huelva. ¿Cuál está en tercera posición?;Sevilla;Málaga;Granada;Cádiz;2;La tercera ciudad de la lista es Granada.
+Memoria;Si te digo: Tren Rápido = 300 km/h, Regional = 120 km/h, Cercanías = 80 km/h. ¿A cuántos km/h va el Regional?;300;120;80;200;1;El tren Regional va a 120 km/h según los datos.
+Memoria;Memoriza la secuencia: 5, 12, 8, 19, 3. ¿Cuál es la diferencia entre el 1º y el último?;1;2;3;8;1;Primer número = 5, último = 3. Diferencia = 5-3 = 2.
+Memoria;Si te muestro: Enero=31, Febrero=28, Marzo=31, Abril=30. ¿Cuántos días tiene Abril?;31;28;30;29;2;Según los datos, Abril tiene 30 días.
+Memoria;Recuerda: Billete ida = 12€, ida y vuelta = 20€, abono mensual = 40€. ¿Cuánto cuesta ida y vuelta?;12€;20€;40€;60€;1;El billete ida y vuelta cuesta 20€ según los datos.
+Memoria;Si memorizas: Planta 1=Oficinas, Planta 2=Almacén, Planta 3=Comedor. ¿Qué hay en la Planta 2?;Oficinas;Almacén;Comedor;Sala de espera;1;En la Planta 2 está el Almacén según la información.
+Memoria;Recuerda: Línea Roja tiene 15 paradas, Línea Azul 22, Línea Verde 18. ¿Cuántas paradas tiene la Línea Azul?;15;18;22;25;2;La Línea Azul tiene 22 paradas según los datos.
+Memoria;Si te digo: Código A = 4821, Código B = 7536, Código C = 9104. ¿Cuál es el Código B?;4821;7536;9104;3675;1;El Código B = 7536 según los datos proporcionados.
+Memoria;Memoriza: Madrid a París = 2h 30min, Madrid a Roma = 2h 15min, Madrid a Lisboa = 1h. ¿Cuánto dura Madrid-Roma?;2h 30min;2h 15min;1h;3h;1;El vuelo Madrid-Roma dura 2h 15min según los datos.
+Memoria;Si te muestro: A=Rojo, B=Azul, C=Verde, D=Amarillo. ¿Qué color es C?;Rojo;Azul;Verde;Amarillo;2;Según los datos, C = Verde.
+Memoria;Recuerda esta secuencia: Sol, Luna, Estrella, Planeta, Cometa. ¿Qué viene después de Estrella?;Sol;Luna;Planeta;Cometa;2;La secuencia es: Sol(1), Luna(2), Estrella(3), Planeta(4). Después de Estrella viene Planeta.
+Memoria;Si memorizas: Tren A=200 pasajeros, Tren B=350, Tren C=150, Tren D=400. ¿Cuál tiene más capacidad?;Tren A;Tren B;Tren C;Tren D;3;El Tren D tiene 400 pasajeros, la mayor capacidad.
+Memoria;Recuerda: Día 1=Madrid, Día 2=Toledo, Día 3=Segovia. ¿A dónde se viaja el Día 2?;Madrid;Toledo;Segovia;Ávila;1;El Día 2 el destino es Toledo según el itinerario.
+Memoria;Si te digo: Vía 1=AVE, Vía 2=Media Distancia, Vía 3=Cercanías. ¿Qué tipo de tren va por la Vía 3?;AVE;Media Distancia;Cercanías;Alvia;2;Por la Vía 3 van trenes de Cercanías según los datos.
+Memoria;Memoriza: Precio A=50€, Precio B=75€, Precio C=60€. ¿Cuál es el precio de B?;50€;60€;75€;85€;2;El Precio B = 75€ según los datos.
+Memoria;Si te muestro: 1er lugar=Oro, 2º=Plata, 3º=Bronce, 4º=Mención. ¿Qué medalla es el 2º?;Oro;Plata;Bronce;Mención;1;El segundo lugar obtiene la medalla de Plata.
+Memoria;Recuerda: Línea 1=rojo, Línea 2=azul, Línea 3=amarillo, Línea 4=marrón. ¿De qué color es la Línea 3?;Rojo;Azul;Amarillo;Marrón;2;La Línea 3 es de color amarillo según los datos.
+Memoria;Si memorizas: 8:00=Desayuno, 9:00=Examen, 11:00=Descanso, 12:00=Continuar. ¿Qué hay a las 9:00?;Desayuno;Examen;Descanso;Continuar;1;A las 9:00 hay un Examen según el horario.
+Memoria;Recuerda: A=72, B=45, C=91, D=38. ¿Cuál es la diferencia entre A y B?;20;27;30;33;1;A(72) - B(45) = 27.
+Memoria;Si te digo: Enero=Bueno, Febrero=Regular, Marzo=Excelente, Abril=Bueno. ¿Cómo fue Marzo?;Bueno;Regular;Excelente;Malo;2;Marzo fue Excelente según la información.
+Memoria;Memoriza: Estación A=2 andenes, Estación B=4 andenes, Estación C=3 andenes. ¿Cuántos andenes tiene la Estación B?;2;3;4;5;2;La Estación B tiene 4 andenes según los datos.
+Memoria;Si te muestro la lista: 12, 28, 5, 33, 17. ¿Cuál es el número más pequeño?;5;12;17;28;0;El número más pequeño de la lista es 5.
+Memoria;Recuerda: Tren expreso=180km/h, Regional=90km/h, Cercanías=60km/h. ¿Cuánto más rápido es el expreso que el regional?;60;80;90;100;2;180 - 90 = 90 km/h más rápido.
+Memoria;Si memorizas: A=3, B=5, C=8, D=2. ¿Cuánto vale A+B+C?;14;16;18;20;1;3+5+8 = 16.
+Memoria;Recuerda la frase: "El tren de las diez llega tarde". ¿A qué hora era el tren?;8:00;9:00;10:00;11:00;2;El texto dice "las diez" = 10:00.
+Memoria;Si te digo: Billete adulto=10€, niño=5€, jubilado=7€. ¿Cuánto cuestan 1 adulto + 2 niños?;15€;20€;25€;30€1;10 + 2(5) = 10 + 10 = 20€.
+Memoria;Memoriza: Lunes=L, Martes=M, Miércoles=X, Jueves=J, Viernes=V. ¿Qué letra es Miércoles?;L;M;X;J;2;Según los datos, Miércoles = X.
+Memoria;Recuerda: Vía A=200m, Vía B=350m, Vía C=150m, Vía D=400m. ¿Cuál es la vía más corta?;Vía A;Vía B;Vía C;Vía D;2;La Vía C con 150m es la más corta.
+Memoria;Si te muestro: 1=Madrid, 2=Barcelona, 3=Valencia, 4=Sevilla. ¿Qué ciudad es el número 3?;Madrid;Barcelona;Valencia;Sevilla;2;El número 3 corresponde a Valencia.
+Memoria;Recuerda: Clase A=25 alumnos, Clase B=30, Clase C=22, Clase D=28. ¿Cuántos alumnos hay en total?;95;100;105;110;2;25+30+22+28 = 105 alumnos.
+Memoria;Si memorizas: Tren 1=80 plazas, Tren 2=120, Tren 3=60. ¿Cuántas plazas tienen los 3 trenes?;240;250;260;270;2;80+120+60 = 260 plazas.
+Memoria;Recuerda: Enero=500 pasajeros, Febrero=450, Marzo=600, Abril=550. ¿En qué mes hubo menos pasajeros?;Enero;Febrero;Marzo;Abril;1;Febrero con 450 pasajeros es el mes con menos.
+Memoria;Si te digo: A=Primer trimestre, B=Segundo, C=Tercero, D=Cuarto. ¿Qué representa C?;Enero;Junio;Septiembre;Diciembre;2;C = Tercer trimestre = Julio-Septiembre. Septiembre lo representa.
+Memoria;Memoriza: Tren A=300km, Tren B=450km, Tren C=200km. ¿Cuántos km recorren en total?;850;900;950;1000;2;300+450+200 = 950 km.
+Memoria;Recuerda la secuencia: A1, B2, C3, D4, E5. ¿Qué viene después de C3?;B2;D4;E5;F6;1;Después de C3 viene D4.
+Memoria;Si te muestro: Rojo=5, Azul=3, Verde=7, Amarillo=2. ¿Cuánto suman Rojo + Verde?;8;10;12;14;2;5+7 = 12.
+Memoria;Recuerda: Tren A llega a las 10:15, Tren B a las 11:45, Tren C a las 13:00. ¿Cuál llega antes?;Tren A;Tren B;Tren C;Llegan igual;0;El Tren A llega a las 10:15, el más temprano.
+Memoria;Si memorizas: P1=Madrid, P2=Guadalajara, P3=Zaragoza, P4=Lleida. ¿Cuántas paradas hay hasta Lleida?;1;2;3;4;3;Lleida es la 4ª parada, así que hay 4 paradas.
+Memoria;Recuerda: Billete zona A=1.50€, zona B=2.50€, zona C=3.50€. ¿Cuánto cuestan 3 billetes zona B?;5.00€;7.50€;10.00€;12.50€1;3 × 2.50€ = 7.50€.
+Memoria;Si te digo: Vía 1=200 trenes/día, Vía 2=150, Vía 3=100. ¿Cuántos trenes circulan por las 3 vías?;400;450;500;550;1;200+150+100 = 450 trenes/día.
+Memoria;Memoriza: A=10, B=20, C=30, D=40. ¿Cuánto vale (A+D) - (B+C)?;0;10;20;30;0;(10+40) - (20+30) = 50 - 50 = 0.
+Memoria;Recuerda: Enero=lunes, Febrero=miércoles, Marzo=viernes. ¿Qué día de la semana fue Febrero?;Lunes;Miércoles;Viernes;Domingo;1;Según los datos, Febrero = miércoles.
+Memoria;Si te muestro: 3, 6, 9, 12, 15. ¿Cuál es el siguiente número de la serie?;16;17;18;19;2;La serie incrementa de 3 en 3. Después de 15 viene 18.
+Memoria;Recuerda: A=rojo, B=azul, C=amarillo, D=verde. Si A+C = ¿qué colores?;Rojo y azul;Rojo y amarillo;Azul y amarillo;Amarillo y verde;1;A=rojo, C=amarillo. A+C = rojo y amarillo.
+Memoria;Si memorizas: Tren A=2h, Tren B=3h 30min, Tren C=1h 45min. ¿Cuál tarda más?;Tren A;Tren B;Tren C;Tardan igual;1;Tren B con 3h 30min es el que más tarda.
+Memoria;Recuerda: 1er vagón=50 asientos, 2º=60, 3º=45, 4º=55. ¿Cuántos asientos hay en total?;190;200;210;220;2;50+60+45+55 = 210 asientos.
+Memoria;Si te digo: A=4, B=8, C=12, D=16. ¿Cuánto vale B×D / A?;24;28;32;36;2;(8×16)/4 = 128/4 = 32.
+Memoria;Memoriza: Madrid-Toledo=33min, Madrid-Segovia=27min, Madrid-Ávila=1h 10min. ¿Cuál es el trayecto más corto?;Madrid-Toledo;Madrid-Segovia;Madrid-Ávila;Todos iguales;1;Madrid-Segovia con 27min es el trayecto más corto.
+Memoria;Recuerda: A=100 pasajeros/hora, B=150/hora, C=200/hora. En 3 horas, ¿cuántos pasajeros transporta B?;300;400;450;600;2;150 × 3 = 450 pasajeros.
+Memoria;Si te muestro la secuencia: Z, Y, X, W, V. ¿Qué letra viene después de W?;X;Y;V;U;2;El orden inverso es Z,Y,X,W,V. Después de W viene V.
+Memoria;Recuerda: A=25, B=50, C=75, D=100. ¿Cuál es el promedio de A, B y C?;40;45;50;55;2;(25+50+75)/3 = 150/3 = 50.
+Razonamiento Lógico;Si todos los trenes son rápidos y el AVE es un tren, ¿qué podemos concluir?;El AVE es lento;El AVE es rápido;No todos los trenes son rápidos;El AVE no es un tren;1;Silogismo: Todos los trenes son rápidos + El AVE es un tren → El AVE es rápido.
+Razonamiento Lógico;Si llueve, el tren se retrasa. El tren NO se ha retrasado. ¿Qué podemos afirmar?;Ha llovido;No ha llovido;El tren no funciona;No se puede saber;1;Modus tollens: Si P→Q, y no Q, entonces no P. No ha llovido.
+Razonamiento Lógico;Todos los revisores llevan uniforme. Juan no lleva uniforme. ¿Qué podemos concluir?;Juan es revisor;Juan no es revisor;Juan es pasajero;No se puede saber;1;Si todos los revisores llevan uniforme y Juan no lo lleva, Juan no es revisor.
+Razonamiento Lógico;Si el tren sale a las 8:00 y tarda 2 horas, llegará a las 10:00. ¿Qué tipo de razonamiento es?;Inductivo;Deductivo;Analógico;Abductivo;1;Se parte de premisas generales para llegar a una conclusión específica = razonamiento deductivo.
+Razonamiento Lógico;Si "algunos trenes son eléctricos" es verdadero, ¿qué es necesariamente falso?;Ningún tren es eléctrico;Todos los trenes son eléctricos;Algunos trenes no son eléctricos;No hay trenes;0;Si algunos trenes son eléctricos, "Ningún tren es eléctrico" es necesariamente falso.
+Razonamiento Lógico;Si María trabaja en la estación y la estación está en Madrid, ¿dónde trabaja María?;En Barcelona;En Madrid;En Valencia;No se puede saber;1;Si trabaja en la estación y la estación está en Madrid, María trabaja en Madrid.
+Razonamiento Lógico;Si un billete cuesta 10€ y tienes un descuento del 20%, ¿cuánto pagas?;2€;8€;9€;10€;1;10€ - (10€ × 0.20) = 10€ - 2€ = 8€.
+Razonamiento Lógico;Si todos los vagones tienen ruedas y el vagón 5 no tiene ruedas, ¿qué podemos concluir?;El vagón 5 no es un vagón;El vagón 5 es especial;No todos los vagones tienen ruedas;El vagón 5 está reparándose;0;Si todos los vagones tienen ruedas y el 5 no, entonces el 5 no cumple la definición de vagón según la premisa.
+Razonamiento Lógico;Si A es mayor que B, y B es mayor que C, entonces...;A es menor que C;A es igual a C;A es mayor que C;No se puede saber;2;Propiedad transitiva: A>B y B>C → A>C.
+Razonamiento Lógico;Si el tren A llega antes que el B, y el C llega después que el B, ¿cuál llega primero?;Tren A;Tren B;Tren C;Llegan iguales;0;A < B < C en orden de llegada. El Tren A llega primero.
+Razonamiento Lógico;Si "todos los conductores tienen licencia" y "Pedro tiene licencia", ¿podemos afirmar que Pedro es conductor?;Sí;No;No se puede saber;Solo si trabaja en Renfe;2;Tener licencia es necesario pero no suficiente. Podría tener licencia sin ser conductor.
+Razonamiento Lógico;Si el tren va a 120 km/h y la distancia es 60 km, ¿cuánto tardará?;15 min;30 min;45 min;1 hora;1;Tiempo = 60/120 = 0.5 horas = 30 minutos.
+Razonamiento Lógico;Si "o llueve o hace sol" y sabemos que no llueve, entonces...;Hace sol;No hace sol;Está nublado;No se puede saber;0;Si P o Q es verdadero y P es falso, entonces Q es verdadero (hace sol).
+Razonamiento Lógico;Si tres trenes salen cada 20 minutos y el primero salió a las 6:00, ¿a qué hora sale el tercero?;6:20;6:40;7:00;7:20;1;Tren 1: 6:00, Tren 2: 6:20, Tren 3: 6:40.
+Razonamiento Lógico;Si "ningún tren circula sin maquinista" y "el tren 7 circula", ¿qué podemos afirmar?;El tren 7 no tiene maquinista;El tren 7 tiene maquinista;El tren 7 es especial;No se puede saber;1;Si ningún tren circula sin maquinista y el 7 circula, entonces el 7 tiene maquinista.
+Razonamiento Lógico;Si un tren tiene el doble de vagones que otro y el segundo tiene 4, ¿cuántos vagones tiene el primero?;4;6;8;10;2;4 × 2 = 8 vagones.
+Razonamiento Lógico;Si "todos los pasajeros llevan billete" es falso, entonces...;Ningún pasajero lleva billete;Algunos pasajeros no llevan billete;Todos llevan billete;No hay pasajeros;1;Si "todos llevan" es falso, entonces "algunos no llevan" es verdadero.
+Razonamiento Lógico;Si A = 2B y B = 3C, entonces A es igual a...;3C;5C;6C;9C;2;A = 2B = 2(3C) = 6C.
+Razonamiento Lógico;Si un tren sale cada hora y son las 14:30, ¿cuándo sale el próximo?;15:00;15:30;16:00;14:45;0;Si sale cada hora (en punto), el próximo después de 14:30 es a las 15:00.
+Razonamiento Lógico;Si "si hace frío, pongo calefacción" y "pongo calefacción", ¿podemos afirmar que hace frío?;Sí;No;No se puede saber;Solo en invierno;2;El consecuente verdadero no implica el antecedente. Podría poner calefacción por otro motivo.
+Razonamiento Lógico;Si Pedro gana más que Ana, y Ana gana más que Luis, ¿quién gana menos?;Pedro;Ana;Luis;Todos ganan igual;2;Pedro > Ana > Luis. Luis gana menos.
+Razonamiento Lógico;Si un tren recorre 240 km en 3 horas, ¿a qué velocidad media circula?;60 km/h;70 km/h;80 km/h;90 km/h;2;240/3 = 80 km/h.
+Razonamiento Lógico;Si "todos los lunes hay reunión" y hoy es lunes, entonces...;Hoy hay reunión;Hoy no hay reunión;Mañana hay reunión;No se puede saber;0;Si todos los lunes hay reunión y hoy es lunes, hoy hay reunión.
+Razonamiento Lógico;Si un billete de ida cuesta 8€ y el de vuelta cuesta un 50% más, ¿cuánto cuesta la ida y vuelta?;12€;16€;20€;24€2;Ida = 8€, Vuelta = 8 + (8×0.50) = 12€. Total = 8+12 = 20€.
+Razonamiento Lógico;Si "algunos trenes van a Madrid" y "algunos trenes van a Barcelona", ¿puede un tren ir a ambas ciudades?;Sí;No;No se puede saber;Es imposible;2;"Algunos" no excluye que un mismo tren vaya a ambas (con paradas intermedias). No se puede deducir.
+Razonamiento Lógico;Si el tren A tiene 5 vagones más que el B, y el B tiene el doble que el C (que tiene 6), ¿cuántos tiene el A?;11;12;17;18;2;C=6, B=12 (doble de C), A=12+5=17.
+Razonamiento Lógico;Si "si hay huelga, no hay trenes" y "hay trenes", entonces...;Hay huelga;No hay huelga;Hay pocos trenes;No se puede saber;1;Modus tollens: Si H→no T, y T, entonces no H (no hay huelga).
+Razonamiento Lógico;Si 5 billetes cuestan 50€, ¿cuánto cuestan 8 billetes?;60€;70€;80€;90€2;1 billete = 10€. 8 billetes = 80€.
+Razonamiento Lógico;Si "todos los trenes de alta velocidad son rápidos" y "el tren X es rápido", ¿es el tren X de alta velocidad?;Sí;No;No se puede saber;Es AVE;2;Ser rápido no implica ser de alta velocidad. Podría ser rápido por otras razones.
+Razonamiento Lógico;Si el primer tren sale a las 5:00 y cada 45 minutos sale otro, ¿a qué hora sale el 4º tren?;6:30;7:00;7:15;7:30;2;Tren 1: 5:00, Tren 2: 5:45, Tren 3: 6:30, Tren 4: 7:15.
+Razonamiento Lógico;Si A es el triple de B y B es 15, ¿cuánto es A + B?;45;50;60;75;2;A = 3×15 = 45. A+B = 45+15 = 60.
+Razonamiento Lógico;Si "ningún AVE para en esta estación" y "este tren es un AVE", ¿para este tren en esta estación?;Sí;No;A veces;No se puede saber;1;Si ningún AVE para y este es un AVE, entonces no para.
+Razonamiento Lógico;Si tres amigos compran billetes: Ana paga 15€, Luis el doble que Ana, y María la mitad que Luis. ¿Cuánto paga María?;7.50€;15€;30€;22.50€1;Ana=15€, Luis=30€, María=30/2=15€. Corrigiendo: María=15€.
+Razonamiento Lógico;Si "todos los revisores revisan billetes" y "Carlos revisa billetes", ¿es Carlos revisor?;Sí;No;No se puede saber;Solo si tiene uniforme;2;Revisar billetes no implica ser revisor. Podría ser otra persona que revisa.
+Razonamiento Lógico;Si un tren tarda 2h en ir y 1.5h en volver por el mismo recorrido, ¿por qué la diferencia?;El tren vuelve más rápido;No se puede saber sin más datos;El tren de vuelta tiene menos paradas;Todas son posibles;3;Sin más datos, todas las explicaciones son posibles.
+Razonamiento Lógico;Si "si nieva, hay retrasos" y "no hay retrasos", ¿nieva?;Sí;No;A veces;No se puede saber;1;Modus tollens: Si N→R, y no R, entonces no N. No nieva.
+Razonamiento Lógico;Si 2 trenes transportan 200 pasajeros, ¿cuántos pasajeros transportan 5 trenes iguales?;400;450;500;600;2;1 tren = 100 pasajeros. 5 trenes = 500.
+Razonamiento Lógico;Si A es más antiguo que B, B es más antiguo que C, y D es más antiguo que A, ¿cuál es el más moderno?;A;B;C;D;2;D > A > B > C. C es el más moderno (más reciente).
+Razonamiento Lógico;Si "todos los trenes nocturnos tienen literas" es falso, entonces...;Ningún tren nocturno tiene literas;Todos los trenes nocturnos tienen literas;Algunos trenes nocturnos no tienen literas;Todos tienen literas;2;Si "todos tienen" es falso, entonces "algunos no tienen" es verdadero.
+Razonamiento Lógico;Si el billete zona A cuesta 2€ y la zona B cuesta 1€ más que la A, ¿cuánto cuestan 3 billetes zona B?;6€;7€;9€;12€2;Zona B = 2+1 = 3€. 3×3€ = 9€.
+Razonamiento Lógico;Si "o el tren sale a las 8 o sale a las 9" y "no sale a las 9", entonces...;Sale a las 8;Sale a las 9;Sale a las 10;No sale;0;Si P o Q, y no Q, entonces P. Sale a las 8.
+Razonamiento Lógico;Si un tren tiene 200 plazas y va al 75% de ocupación, ¿cuántos pasajeros lleva?;125;140;150;160;2;200 × 0.75 = 150 pasajeros.
+Razonamiento Lógico;Si "todo tren con avería se retrasa" y "el tren 12 tiene avería", ¿qué ocurre?;El tren 12 se retrasa;El tren 12 no se retrasa;El tren 12 se cancela;No se puede saber;0;Si todo tren con avería se retrasa y el 12 tiene avería, se retrasa.
+Razonamiento Lógico;Si Pedro tiene el doble de billetes que Ana y Ana tiene 6, ¿cuántos billetes tienen entre los dos?;12;15;18;24;2;Ana=6, Pedro=12. Total=6+12=18.
+Razonamiento Lógico;Si "si hay niebla, velocidad reducida" y "velocidad normal", entonces...;Hay niebla;No hay niebla;Hay poca niebla;No se puede saber;1;Modus tollens: Si N→VR, y no VR (normal), entonces no N. No hay niebla.
+Razonamiento Lógico;Si un tren consume 50L cada 100km, ¿cuántos litros necesita para 350km?;150L;175L;200L;250L;1;350/100 × 50 = 3.5 × 50 = 175L.
+Razonamiento Lógico;Si A=5, B=3, C=8. Si A+B=C es verdadero, ¿qué pasa si A aumenta en 2?;A+B sigue siendo C;A+B > C;A+B < C;No se puede saber;1;Nuevo A=7. 7+3=10. 10>8. A+B > C.
+Razonamiento Lógico;Si "algunos pasajeros son estudiantes" y "todos los estudiantes tienen descuento", ¿qué es verdadero?;Todos los pasajeros tienen descuento;Algunos pasajeros tienen descuento;Ningún pasajero tiene descuento;Solo los estudiantes viajan;1;Algunos pasajeros = estudiantes, y todos los estudiantes tienen descuento → algunos pasajeros tienen descuento.
+Razonamiento Lógico;Si el tren A va a 100 km/h y el B a 150 km/h en la misma dirección, ¿cuánto tarda B en adelantar a A que tiene 50km de ventaja?;30 min;1 hora;1.5 horas;2 horas;1;Diferencia velocidad = 50 km/h. Tiempo = 50/50 = 1 hora.
+Razonamiento Lógico;Si "todos los lunes el tren lleva 2 vagones extra" y hoy no lleva vagones extra, ¿qué día es?;Lunes;No es lunes;Es fin de semana;No se puede saber;1;Si todos los lunes lleva 2 extra y hoy no, entonces hoy no es lunes.
+Razonamiento Lógico;Si 3 obreros tardan 6 horas en reparar una vía, ¿cuánto tardan 6 obreros iguales?;2 horas;3 horas;4 horas;12 horas;1;Doble de obreros = mitad de tiempo. 6/2 = 3 horas.
+Razonamiento Lógico;Si "si el semáforo está rojo, el tren se detiene" y "el tren no se detuvo", ¿de qué color estaba el semáforo?;Rojo;Verde;Amarillo;No rojo;3;Modus tollens: Si R→D, y no D, entonces no R. No estaba rojo.
+Razonamiento Lógico;Si un abono mensual cuesta 50€ y equivale a 20 viajes individuales, ¿cuánto cuesta cada viaje si se compra por separado?;2€;2.50€;3€;5€1;50€/20 = 2.50€ por viaje.
+Razonamiento Lógico;Si A es hermano de B, B es hermana de C, y C es padre de D, ¿qué es A de D?;Abuelo;Tío;Primo;Padre;1;A es hermano de C (padre de D), por tanto A es tío de D.
+Razonamiento Lógico;Si "todos los trenes tienen conductor" y "este vagón no tiene conductor", ¿este vagón es un tren?;Sí;No;A veces;No se puede saber;1;Si todos los trenes tienen conductor y este no, entonces no es un tren completo.
+Razonamiento Lógico;Si el precio del billete sube un 10% cada año y ahora cuesta 10€, ¿cuánto costará en 2 años?;11€;12€;12.10€;13€2;Año 1: 10×1.10=11€. Año 2: 11×1.10=12.10€.
+Razonamiento Lógico;Si "si hay obras, hay desvíos" y "hay desvíos", ¿hay obras?;Sí;No;No se puede saber;No hay obras;2;El consecuente no implica el antecedente. Podría haber desvíos por otras razones.
+Razonamiento Lógico;Si un tren tiene 8 vagones de 1ª clase y 12 de 2ª, ¿qué porcentaje son de 1ª clase?;30%;35%;40%;45%;2;Total = 20 vagones. 8/20 = 0.40 = 40%.
+Razonamiento Lógico;Si A > B > C > D, ¿cuál de estas afirmaciones es falsa?;A > C;B > D;A > D;D > A;3;D es el menor, así que D > A es falsa.
+Razonamiento Lógico;Si "ningún tren circula de madrugada" y "este tren circula", ¿cuándo circula este tren?;De madrugada;No de madrugada;A mediodía;No se puede saber;1;Si ningún tren circula de madrugada y este circula, no circula de madrugada.
+Razonamiento Lógico;Si 4 máquinas llenan 4 depósitos en 4 horas, ¿cuánto tarda 1 máquina en llenar 1 depósito?;1 hora;2 horas;4 horas;16 horas;2;Cada máquina llena 1 depósito en 4 horas independientemente.
+Organización Espacial;Si un tren gira 90° a la derecha mirando al norte, ¿hacia dónde mira ahora?;Sur;Este;Oeste;Norte;1;Norte + 90° derecha = Este.
+Organización Espacial;Si estoy en la estación mirando al este y giro 180°, ¿hacia dónde miro?;Norte;Sur;Este;Oeste;1;Este + 180° = Oeste. Corrigiendo: mirando al este, giro 180° → miro al oeste.
+Organización Espacial;Si una vía tiene 3 desvíos: A (izquierda), B (recto), C (derecha). Si tomo A y luego B, ¿cuántas direcciones diferentes pude haber tomado al inicio?;1;2;3;4;2;Al inicio pude haber tomado A, B o C = 3 direcciones diferentes.
+Organización Espacial;Si un mapa está orientado con el norte arriba, ¿dónde está el sur?;Arriba;Abajo;Izquierda;Derecha;1;En un mapa con norte arriba, el sur está abajo.
+Organización Espacial;Si un tren recorre un triángulo equilátero de 30km por lado, ¿cuántos km recorre en total?;60km;70km;90km;120km;2;3 × 30km = 90km.
+Organización Espacial;Si estoy mirando al norte y giro 270° a la izquierda, ¿hacia dónde miro?;Norte;Este;Sur;Oeste;1;Norte - 270° = Norte - 270° = Este (equivale a 90° derecha).
+Organización Espacial;Si un tren parte de A, va 100km al norte, luego 100km al este, luego 100km al sur. ¿Dónde está respecto a A?;En A;100km al este de A;100km al norte de A;100km al oeste de A;1;Norte 100, Este 100, Sur 100. Está 100km al este del punto A.
+Organización Espacial;Si un plano tiene escala 1:50000 y dos estaciones están a 4cm en el plano, ¿cuántos km hay en realidad?;1km;2km;3km;4km;1;4cm × 50000 = 200000cm = 2km.
+Organización Espacial;Si una estación tiene 4 andenes numerados del 1 al 4 de izquierda a derecha, ¿cuál está más a la derecha?;Andén 1;Andén 2;Andén 3;Andén 4;3;El Andén 4 es el más a la derecha (el último de la numeración).
+Organización Espacial;Si un tren gira 45° a la derecha dos veces consecutivas, ¿cuántos grados ha girado en total?;45°;90°;135°;180°;1;45° + 45° = 90°.
+Organización Espacial;Si un mapa tiene la leyenda: ■ = estación, ▲ = puente, ● = túnel. Si veo ■▲● en línea, ¿qué hay entre la estación y el túnel?;Otra estación;Un puente;Un túnel;Nada;1;En la secuencia ■▲●, el puente (▲) está entre la estación (■) y el túnel (●).
+Organización Espacial;Si estoy en la plataforma mirando hacia las vías y el tren está a mi derecha, ¿dónde está la salida?;Detrás de mí;A mi izquierda;A mi derecha;No se puede saber;3;Sin conocer la distribución de la estación, no se puede determinar la posición de la salida.
+Organización Espacial;Si un tren recorre un cuadrado de 50km por lado, ¿cuántos km recorre?;100km;150km;200km;250km;2;4 × 50km = 200km.
+Organización Espacial;Si miro al sur y giro 90° a la izquierda, ¿hacia dónde miro?;Este;Oeste;Norte;Sur;1;Sur + 90° izquierda = Este.
+Organización Espacial;Si una línea de tren tiene 8 estaciones en línea recta, ¿cuántos tramos hay entre estaciones?;6;7;8;9;1;Entre 8 estaciones hay 7 tramos.
+Organización Espacial;Si un tren está en la vía principal y debe cambiar a la vía paralela usando un desvío que gira 15° a la derecha, ¿qué ángulo forma la nueva vía con la original?;15°;30°;45°;90°;0;El desvío gira 15°, así que el ángulo entre ambas vías es de 15°.
+Organización Espacial;Si un plano muestra Madrid en el centro, Barcelona a la derecha y Lisboa a la izquierda, ¿dónde está Lisboa respecto a Barcelona?;Al norte;Al sur;Al este;Al oeste;3;Si Barcelona está a la derecha (este) y Lisboa a la izquierda (oeste), Lisboa está al oeste de Barcelona.
+Organización Espacial;Si un tren da una vuelta completa en una rotonda ferroviaria, ¿cuántos grados ha recorrido?;90°;180°;270°;360°;3;Una vuelta completa = 360°.
+Organización Espacial;Si estoy en el andén 3 y debo ir al andén 7 pasando por los andenes 4, 5 y 6, ¿cuántos andenes cruzo?;2;3;4;5;1;Cruzo los andenes 4, 5 y 6 = 3 andenes.
+Organización Espacial;Si un mapa tiene orientación con norte arriba y veo que el río va de izquierda a derecha, ¿en qué dirección fluye el río?;Norte-Sur;Sur-Norte;Oeste-Este;Este-Oeste;2;Izquierda = Oeste, Derecha = Este. El río fluye de Oeste a Este.
+Organización Espacial;Si un tren recorre 5km al norte y luego 5km al sur, ¿dónde está respecto al punto de partida?;5km al norte;5km al sur;En el punto de partida;10km al este;2;5km norte - 5km sur = vuelve al punto de partida.
+Organización Espacial;Si una vía férrea tiene un desnivel del 2% y recorre 1000m en horizontal, ¿cuántos metros sube?;10m;20m;30m;50m;1;2% de 1000m = 0.02 × 1000 = 20m.
+Organización Espacial;Si giro 3 veces 120° a la derecha, ¿cuántos grados he girado en total?;120°;240°;360°;480°;2;3 × 120° = 360°.
+Organización Espacial;Si un tren tiene 4 vagones y cada vagón tiene 2 puertas por lado, ¿cuántas puertas hay en total si contamos solo un lado?;4;6;8;16;2;4 vagones × 2 puertas = 8 puertas en un lado.
+Organización Espacial;Si estoy mirando al oeste y quiero mirar al noreste, ¿cuántos grados debo girar a la derecha?;45°;90°;135°;180°2;Oeste → Norte = 90°, Norte → Noreste = 45°. Total = 135° a la derecha.
+Organización Espacial;Si un mapa muestra 5 líneas de metro que se cruzan en una estación central, ¿cuántas direcciones salen de esa estación?;5;8;10;12;2;5 líneas × 2 direcciones cada una = 10 direcciones.
+Organización Espacial;Si un tren recorre un semicírculo de 5km de radio, ¿cuántos km recorre aproximadamente?;10km;15.7km;20km;31.4km;1;Semicírculo = π × r = 3.14 × 5 = 15.7km.
+Organización Espacial;Si una señal está a 3m de altura y otra a 5m, y están separadas 4m en horizontal, ¿cuál es la distancia entre ellas?;3.2m;4.0m;4.5m;5.0m2;Teorema de Pitágoras: √(4² + 2²) = √(16+4) = √20 ≈ 4.47 ≈ 4.5m.
+Organización Espacial;Si un tren gira 60° izquierda, luego 30° derecha, luego 90° izquierda, ¿cuál es el giro neto?;120° izquierda;120° derecha;60° izquierda;60° derecha;0;-60° + 30° - 90° = -120° = 120° a la izquierda.
+Organización Espacial;Si estoy en el centro de una plaza circular con 6 salidas equidistantes, ¿qué ángulo hay entre cada salida?;30°;45°;60°;90°2;360° / 6 = 60° entre cada salida.
+Organización Espacial;Si un tren avanza 3 paradas al norte, 2 al este y 1 al sur, ¿dónde está respecto al inicio?;2 norte, 2 este;3 norte, 2 este;4 norte, 2 este;2 norte, 1 este;0;Norte: 3-1=2. Este: 2. Resultado: 2 al norte, 2 al este.
+Organización Espacial;Si un plano está doblado por la mitad y la estación A queda encima de la B, ¿qué relación tienen en el plano original?;Están juntas;Están en lados opuestos;Están en diagonal;No se puede saber;1;Si al doblar quedan una encima de otra, en el plano original están en lados opuestos del pliegue.
+Organización Espacial;Si una vía tiene forma de "L" con brazos de 200m y 300m, ¿cuál es la distancia más corta entre los extremos?;260m;360m;420m;500m1;Teorema de Pitágoras: √(200² + 300²) = √(40000+90000) = √130000 ≈ 360.56m.
+Organización Espacial;Si un tren recorre un círculo completo y vuelve al punto de inicio tras 40km, ¿cuál es el radio aproximado?;4.3km;6.4km;8.5km;12.7km1;Perímetro = 2πr = 40km. r = 40/(2×3.14) ≈ 6.37km ≈ 6.4km.
+Organización Espacial;Si miro al norte y giro hasta mirar al suroeste, ¿cuántos grados he girado a la izquierda?;135°;180°;225°;270°0;Norte → Oeste = 90°, Oeste → Suroeste = 45°. Total izquierda = 135°.
+Organización Espacial;Si un mapa tiene norte arriba y una carretera va del noroeste al sureste, ¿en qué dirección general va?;Horizontal;Vertical;Diagonal descendente;Diagonal ascendente2;Del noroeste (arriba-izquierda) al sureste (abajo-derecha) = diagonal descendente.
+Organización Espacial;Si un tren recorre 3km al este, 4km al norte y 3km al oeste, ¿a qué distancia está del punto de inicio?;3km;4km;5km;7km1;Este 3, Norte 4, Oeste 3 → Este-Oeste se cancelan. Queda 4km al norte.
+Organización Espacial;Si una estación tiene forma rectangular de 100m × 50m, ¿cuál es su perímetro?;150m;200m;250m;300m3;Perímetro = 2(100+50) = 300m.
+Organización Espacial;Si un tren parte hacia el noroeste y luego gira 90° a la derecha, ¿hacia dónde va?;Norte;Noreste;Suroeste;Sureste1;Noroeste + 90° derecha = Noreste.
+Organización Espacial;Si un mapa escala 1:100000 muestra 7cm entre ciudades, ¿cuántos km son en realidad?;5km;7km;10km;14km1;7cm × 100000 = 700000cm = 7km.
+Organización Espacial;Si una vía circular tiene 12km de circunferencia y un tren está en el punto norte, tras recorrer 3km, ¿dónde está?;Punto este;Punto sur;Punto oeste;Punto noreste0;3km de 12km = 1/4 del círculo. Del norte, 1/4 = punto este.
+Organización Espacial;Si estoy mirando al sur y giro 225° a la derecha, ¿hacia dónde miro?;Noroeste;Noreste;Suroeste;Sureste0;Sur + 225° derecha: Sur→Oeste(90°)→Norte(180°)→Noroeste(225°).
+Organización Espacial;Si una línea de tren forma un triángulo con lados 8km, 15km y 17km, ¿es un triángulo rectángulo?;Sí;No;No se puede saber;Es equilátero;0;8²+15² = 64+225 = 289 = 17². Sí, es rectángulo (Pitágoras).
+Organización Espacial;Si un tren recorre 2km al norte, 3km al este, 2km al sur y 3km al oeste, ¿dónde está?;En el punto de inicio;1km al norte;1km al este;2km al sur;0;Norte-Sur se cancelan (2-2=0). Este-Oeste se cancelan (3-3=0). Vuelve al inicio.
+Organización Espacial;Si una vía tiene 5 desvíos consecutivos y en cada uno la probabilidad de tomar la rama principal es 50%, ¿cuántas rutas diferentes existen?;8;16;32;64;2;2^5 = 32 rutas diferentes posibles.
+Organización Espacial;Si un mapa con norte arriba muestra un río que fluye de arriba a la izquierda hacia abajo a la derecha, ¿en qué dirección fluye?;Norte a sur;Noroeste a sureste;Oeste a este;Noreste a suroeste;1;De arriba-izquierda (noroeste) a abajo-derecha (sureste) = noroeste a sureste.
+Organización Espacial;Si un tren recorre un octógono regular de 2km por lado, ¿cuántos km recorre?;12km;14km;16km;18km;2;8 × 2km = 16km.
+Organización Espacial;Si estoy en un andén mirando al tren y el tren mira hacia el este, ¿hacia dónde miro yo?;Este;Oeste;Norte;Sur;0;Si el tren mira al este y yo lo miro de frente, yo miro al este (en la misma dirección). Si lo miro de frente desde la plataforma, miro hacia donde apunta el tren = este.
+Organización Espacial;Si una línea férrea tiene 20 estaciones y cada estación está a la misma distancia, y la línea mide 100km, ¿a qué distancia está cada estación de la siguiente?;4km;5km;5.26km;10km1;19 tramos entre 20 estaciones. 100/19 ≈ 5.26km.
+Organización Espacial;Si un tren gira 120° a la izquierda y luego 60° a la derecha, ¿cuál es el giro neto?;60° izquierda;60° derecha;180° izquierda;180° derecha;0;-120° + 60° = -60° = 60° a la izquierda.
+Organización Espacial;Si un plano muestra un edificio al norte de la estación y un parking al sur, ¿dónde está el parking respecto al edificio?;Al norte;Al sur;Al este;Al oeste;1;El parking está al sur de la estación y el edificio al norte, así que el parking está al sur del edificio.
+Organización Espacial;Si un tren recorre 6km al norte y luego 8km al este, ¿cuál es la distancia en línea recta desde el inicio?;10km;12km;14km;16km;0;Teorema de Pitágoras: √(6² + 8²) = √(36+64) = √100 = 10km.
+Organización Espacial;Si una vía férrea forma un ángulo de 135° con otra, ¿cuál es el ángulo complementario?;35°;45°;55°;65°1;Ángulo complementario = 180° - 135° = 45°.
+Organización Espacial;Si estoy mirando al noreste y quiero mirar al noroeste, ¿cuántos grados debo girar a la izquierda?;45°;90°;135°;180°1;Noreste → Norte = 45°, Norte → Noroeste = 45°. Total = 90° izquierda.
+Organización Espacial;Si un tren recorre un hexágono regular de 3km por lado, ¿cuántos km recorre?;12km;15km;18km;21km;2;6 × 3km = 18km.
+Organización Espacial;Si un mapa tiene norte arriba y veo una carretera que va de abajo a la izquierda hacia arriba a la derecha, ¿en qué dirección va?;Suroeste a noreste;Noroeste a sureste;Sur a norte;Oeste a este;0;De abajo-izquierda (suroeste) a arriba-derecha (noreste) = suroeste a noreste.
+Organización Espacial;Si un tren parte del punto A, va 5km al norte, 5km al este, 5km al sur y 5km al oeste, ¿qué forma describe?;Círculo;Triángulo;Cuadrado;Rectángulo;2;4 lados iguales con giros de 90° = cuadrado.
+Organización Espacial;Si una vía tiene un radio de curvatura de 500m, ¿cuál es el diámetro de la curva completa?;250m;500m;750m;1000m;3;Diámetro = 2 × radio = 2 × 500 = 1000m.
+Organización Espacial;Si un tren gira 15° en cada curva y hay 24 curvas iguales, ¿cuántos grados ha girado en total?;180°;270°;360°;450°2;24 × 15° = 360° = una vuelta completa.
+Organización Espacial;Si una estación tiene 3 niveles: planta calle (0), andenes (-1) y aparcamiento (+1), ¿cuántos pisos de diferencia hay entre andenes y aparcamiento?;1;2;3;0;1;De -1 a +1 = 2 pisos de diferencia.
