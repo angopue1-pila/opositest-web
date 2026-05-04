@@ -21,6 +21,11 @@ class CSVParser {
         'psicotécnicos': 'Psicotécnico'
     };
 
+    static psicotecnicoCategories = new Set([
+        'numérico', 'verbal', 'atención', 'memoria', 'razonamiento', 'espacial',
+        'figuras', 'serie', 'razonamiento lógico', 'organización espacial'
+    ]);
+
     static normalizeCategory(cat) {
         if (!cat) return 'General';
         const normalized = cat.trim().toLowerCase();
@@ -61,8 +66,8 @@ class CSVParser {
                 };
 
                 const cat = question.category.toLowerCase();
-                question.isPsicotecnico = cat.includes('psicotecnico') || cat.includes('psicotécnico');
-                question.psicotecnicoType = question.isPsicotecnico ? this._detectPsicoType(question.text) : '';
+                question.isPsicotecnico = CSVParser.psicotecnicoCategories.has(cat) || cat.includes('psicotecnico') || cat.includes('psicotécnico');
+                question.psicotecnicoType = question.isPsicotecnico ? question.category : '';
 
                 if (question.options.length >= 2) {
                     questions.push(question);

@@ -29,7 +29,8 @@ class App {
             this._showTab(0);
         }
 
-        this._registerSW();
+        // Service Worker disabled for development
+        // this._registerSW();
     }
 
     async _loadBundledData() {
@@ -52,6 +53,20 @@ class App {
                 console.log(`Loaded ${temario.length} bundled definitions`);
             }
         } catch (e) { console.log('No bundled temario available'); }
+
+        // Auto-load psicotécnicos from CSV
+        try {
+            const csvFiles = ['./data/PsicotecnicosBase.csv', './data/PsicotecnicosNuevos.csv'];
+            for (const file of csvFiles) {
+                const resp = await fetch(file);
+                const text = await resp.text();
+                const questions = CSVParser.parse(text);
+                if (questions.length > 0) {
+                    await store.importQuestions(questions);
+                    console.log(`Loaded ${questions.length} questions from ${file}`);
+                }
+            }
+        } catch (e) { console.log('No psicotécnicos CSV available'); }
 
         await store.pullFromGitHub();
     }
