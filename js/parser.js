@@ -61,7 +61,8 @@ class CSVParser {
                         parsed[4].trim(),
                         parsed[5].trim()
                     ].filter(opt => opt.length > 0),
-                    correctIndex: ((parseInt(parsed[6]) || 1) - 1), // Convert from 1-based (1=A) to 0-based (0=A)
+                    // Handle both number (0-3 or 1-4) and letter (A-D) formats for correct answer
+                    correctIndex: CSVParser._parseCorrectAnswer(parsed[6]),
                     explanation: parsed[7] ? parsed[7].trim() : ''
                 };
 
@@ -146,5 +147,26 @@ class CSVParser {
         if (lower.includes('razon') || lower.includes('lógic') || lower.includes('deducir')) return 'Razonamiento Lógico';
         if (lower.includes('espacial') || lower.includes('dirección') || lower.includes('posición')) return 'Organización Espacial';
         return '';
+    }
+
+    static _parseCorrectAnswer(value) {
+        if (!value) return 0;
+        const cleaned = value.toString().trim().toUpperCase();
+        
+        // Handle letter format (A, B, C, D)
+        if (cleaned.startsWith('A')) return 0;
+        if (cleaned.startsWith('B')) return 1;
+        if (cleaned.startsWith('C')) return 2;
+        if (cleaned.startsWith('D')) return 3;
+        
+        // Handle number format (0-3 or 1-4)
+        const num = parseInt(cleaned);
+        if (!isNaN(num)) {
+            // If number is 1-4 (1-based), convert to 0-based
+            // If number is 0-3 (0-based), keep as is
+            return Math.max(0, Math.min(3, num > 3 ? num - 1 : num));
+        }
+        
+        return 0; // Default to first option
     }
 }

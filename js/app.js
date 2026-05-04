@@ -54,22 +54,20 @@ class App {
             }
         } catch (e) { console.log('No bundled temario available'); }
 
-        // Always load/reload psicotécnicos from CSV (to update tests)
+        // Always load/reload ALL CSVs to update questions
         try {
-            const csvFiles = ['./data/PsicotecnicosBase.csv', './data/PsicotecnicosNuevos.csv'];
+            const csvFiles = ['./data/PreguntasBase.csv', './data/PsicotecnicosBase.csv', './data/PsicotecnicosNuevos.csv'];
             for (const file of csvFiles) {
                 const resp = await fetch(file + '?t=' + Date.now()); // Cache busting
                 const text = await resp.text();
                 const questions = CSVParser.parse(text);
                 if (questions.length > 0) {
-                    // Remove old questions from the same file (by checking category)
+                    // Remove old questions from the same categories
                     const cats = [...new Set(questions.map(q => q.category))];
-                    for (const cat of cats) {
-                        const oldQs = await db.getAll('questions');
-                        for (const oldQ of oldQs) {
-                            if (oldQ.category === cat && oldQ.isPsicotecnico) {
-                                await db.delete('questions', oldQ.id);
-                            }
+                    const oldQs = await db.getAll('questions');
+                    for (const oldQ of oldQs) {
+                        if (cats.includes(oldQ.category)) {
+                            await db.delete('questions', oldQ.id);
                         }
                     }
                     // Add new questions
@@ -77,7 +75,7 @@ class App {
                     console.log(`Loaded ${questions.length} questions from ${file}`);
                 }
             }
-        } catch (e) { console.log('No psicotécnicos CSV available'); }
+        } catch (e) { console.log('No CSV files available'); }
 
         await store.loadQuestions(); // Reload questions after import
         await store.pullFromGitHub();

@@ -526,12 +526,21 @@ class Store {
     async importQuestions(parsedQuestions) {
         const batchId = Date.now();
         let added = 0;
+        let updated = 0;
         let skipped = 0;
 
         for (const q of parsedQuestions) {
             const existing = this.questions.find(eq => eq.text === q.text);
             if (existing) {
-                skipped++;
+                // UPDATE existing question with new data
+                existing.options = q.options;
+                existing.correctIndex = q.correctIndex;
+                existing.explanation = q.explanation;
+                existing.category = q.category;
+                existing.isPsicotecnico = q.isPsicotecnico;
+                existing.psicotecnicoType = q.psicotecnicoType;
+                await db.put('questions', existing);
+                updated++;
             } else {
                 q.isImported = true;
                 q.importBatch = batchId;
@@ -542,7 +551,7 @@ class Store {
 
         await this.loadQuestions();
         this.pushToGitHub();
-        return { added, skipped };
+        return { added, updated, skipped };
     }
 
     async removeLastImportedBatch() {
