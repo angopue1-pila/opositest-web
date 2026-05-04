@@ -211,13 +211,13 @@ class Store {
             return;
         }
 
-        const count = Math.min(30, categoryQuestions.length);
+        const count = Math.min(20, categoryQuestions.length);
         this.currentQuestions = this._shuffle([...categoryQuestions]).slice(0, count);
         this.currentExamType = category;
         this.isSurvivalMode = false;
         this.userAnswers = new Array(this.currentQuestions.length).fill(null);
         this.selectedOption = null;
-        this.timeRemaining = count * 60;
+        this.timeRemaining = 20 * 60; // 20 minutes for 20 questions
 
         this.navigateToExam = true;
         this.startTimer();
