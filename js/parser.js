@@ -61,7 +61,7 @@ class CSVParser {
                         parsed[4].trim(),
                         parsed[5].trim()
                     ].filter(opt => opt.length > 0),
-                    correctIndex: parseInt(parsed[6]) || 0,
+                    correctIndex: ((parseInt(parsed[6]) || 1) - 1), // Convert from 1-based (1=A) to 0-based (0=A)
                     explanation: parsed[7] ? parsed[7].trim() : ''
                 };
 
